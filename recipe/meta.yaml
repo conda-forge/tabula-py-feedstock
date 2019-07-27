@@ -1,6 +1,6 @@
 {% set name = "tabula-py" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "24a7febfa0d5debd3f5c2a8ad48f033b470fa3ef2176a6b0d2b691959a26d5ea" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "0ef18a07336a32bef8f02e5c460339e2a919d9ddbdff361f4d6064823535a170" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script:
     - python -m pip install --no-deps --ignore-installed .
 

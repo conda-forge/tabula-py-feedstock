@@ -20,6 +20,7 @@ requirements:
     - python
     - pip
     - flake8
+    - setuptools
   run:
     - python
     - pandas
@@ -27,6 +28,7 @@ requirements:
     - requests
     - distro  # [linux]
     - openjdk
+    - setuptools
 
 test:
   imports:

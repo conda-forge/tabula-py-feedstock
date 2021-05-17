@@ -251,4 +251,5 @@ Feedstock Maintainers
 
 * [@CurtLH](https://github.com/CurtLH/)
 * [@sodre](https://github.com/sodre/)
+* [@tpmusielak](https://github.com/tpmusielak/)
 

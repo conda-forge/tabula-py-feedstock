@@ -1,5 +1,5 @@
 {% set name = "tabula-py" %}
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b10b83d15e7209fcf65c64dee064bdb2d50b06a7e4e28fc9974b92c9ef14c5cc
+  sha256: e95d8ff49fe2f86534006ae8bf38d54a9894ae70042831d70d5760800519bae8
 
 build:
   number: 0

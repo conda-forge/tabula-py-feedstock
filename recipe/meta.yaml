@@ -1,5 +1,5 @@
 {% set name = "tabula-py" %}
-{% set version = "2.6.0" %}
+{% set version = "2.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b10b83d15e7209fcf65c64dee064bdb2d50b06a7e4e28fc9974b92c9ef14c5cc
+  sha256: ac67070d00c48ec1e2e687c0f30f6880778daa44adea42008ecff449481188a7
 
 build:
   number: 0
@@ -34,6 +34,7 @@ requirements:
     - openjdk
     - setuptools
     - setuptools_scm
+    - jpype1
 
 test:
   imports:

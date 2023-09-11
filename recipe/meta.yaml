@@ -34,6 +34,7 @@ requirements:
     - openjdk
     - setuptools
     - setuptools_scm
+    - jpype
 
 test:
   imports:

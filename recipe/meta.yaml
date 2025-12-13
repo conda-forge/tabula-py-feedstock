@@ -1,16 +1,16 @@
 {% set name = "tabula-py" %}
-{% set version = "2.7.0" %}
+{% set version = "2.10.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e95d8ff49fe2f86534006ae8bf38d54a9894ae70042831d70d5760800519bae8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 75968a83fe978e5d56ccf23f0f0255a459c256b7b52db7cabe5ac795bb3b12df
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py2k]
   script:
     - python -m pip install --no-deps --ignore-installed .
